@@ -1,0 +1,25 @@
+
+server:
+  port: 8099
+
+
+
+
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/spring-boot
+    username: root
+    password: Harsha@1997!
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+
+  security:
+    user:
+      name: admin
+      password: password
